@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+body {
+  height: 100vh;
+  background: #3e7899;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90%;
+  max-width: 40em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 0.5em;
+  padding: 2em;
+}
+
+h1 {
+  text-align:center;
+  margin-bottom: 1em;
+}
+textarea {
+  font-size: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 1em;
+  resize: none;
+  border: 0.2em solid #3e7899;
+}
+
+#submit {
+  font-size: 1.2em;
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 1em;
+  border: none;
+  background: #3e7899;
+  color: #ffffff;
+  border-radius: 0.2em;
+  cursor: pointer;
+  margin-top: 2em;
+}
